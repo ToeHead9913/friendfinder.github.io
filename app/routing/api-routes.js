@@ -27,8 +27,8 @@ module.exports = function (app) {
             console.log(friends[i]);
             totalDifference = 0;
 
-            for(var i=0; i < friends[i].scores[j]; i++){
-                totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
+            for(var i=0; i < friends[i].scores[i]; i++){
+                totalDifference += Math.abs(parseInt(userScores[i]) - parseInt(friends[i].scores[i]));
 
                 if (totalDifference <= bestMatch.friendDifference) {
 
